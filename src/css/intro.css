@@ -99,9 +99,9 @@
     animation: slide-left 0.9s ease-in-out 1s both;
     -webkit-animation: slide-left 0.9s ease-in-out 1s both;
     -moz-animation: slide-left 0.9s ease-in-out 1s both;
-    animation-delay: 0.1s;
-    -webkit-animation-delay: 0.1s;
-    -moz-animation-delay: 0.1s;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
 }
 .levelbg1{
     /* background: linear-gradient(90deg, #e20c0c 50%, #CCD7E4 50%); */
