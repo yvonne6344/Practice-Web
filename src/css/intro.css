@@ -1,0 +1,170 @@
+.intro-content{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 技能簡介 begin */
+.intro-skill{
+    width: 100%;
+    margin-left: 18.5%;
+}
+
+.intro-left{
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.intro-center{
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.intro-right{
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.intro-skill span{
+    display: block;
+    margin: 5px;
+    color: #224466;
+}
+/* 技能簡介 end */
+
+/* 技能程度 begin */
+@keyframes slide-left
+{
+  0% {
+    -webkit-transform: translateX(-200%);
+  }
+  
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+  
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+@-webkit-keyframes slide-left  /* Safari & Chrome */
+{
+    0% {
+      -webkit-transform: translateX(-200%);
+   }
+   70% {
+     -webkit-transform: translateX(2%);
+   }
+   100% {
+     -webkit-transform: translateX(0);
+   }
+ }
+ @-ms-keyframes slide-left  /* IE 9 */
+ {
+     0% {
+       -ms-transform: translateX(-200%);
+    }
+    70% {
+      -ms-transform: translateX(2%);
+    }
+    100% {
+      -ms-transform: translateX(0);
+    }
+  }
+ @-moz-keyframes slide-left /* Firefox */
+ {
+    0% {
+      -moz-transform: translateX(-200%);
+   }
+   70% {
+     -moz-transform: translateX(2%);
+   }
+   100% {
+     -moz-transform: translateX(0);
+   }
+ }
+
+.bar-container {
+    background-color: rgba(204, 215, 228, 0.6);
+    height: 15px;
+    width: 50%; 
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.skill-container {
+    height: 15px;
+    animation: slide-left 0.9s ease-in-out 1s both;
+    -webkit-animation: slide-left 0.9s ease-in-out 1s both;
+    -moz-animation: slide-left 0.9s ease-in-out 1s both;
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+}
+.levelbg1{
+    /* background: linear-gradient(90deg, #e20c0c 50%, #CCD7E4 50%); */
+    background-color: #e20c0c;
+    width: 70%;
+}
+.levelbg2{
+    background-color: #e20c0c;
+    width: 50%;
+}
+.levelbg3{
+    background-color: #e20c0c;
+    width: 40%;
+}
+.levelbg4{
+    /* background: linear-gradient(90deg, #08B375 50%, #CCD7E4 40%); */
+    background-color: #08B375;
+    width: 50%;
+}
+.levelbg5{
+    background-color: #08B375;
+    width: 60%;
+}
+.levelbg6{
+    background-color: #08B375;
+    width: 60%;
+}
+.levelbg7{
+    /* background: linear-gradient(90deg, #0275d8 20%, #CCD7E4 20%); */
+    background-color: #0275d8;
+    width: 20%;
+}
+.levelbg8{
+    background-color: #0275d8;
+    width: 20%;
+}
+.levelbg9{
+    background-color: #0275d8;
+    width: 30%;
+}
+.levelbg10{
+    /* background: linear-gradient(90deg, #636c72 30%, #CCD7E4 30%); */
+    background-color: #636c72;
+    width: 40%;
+}
+.levelbg11{
+    background-color: #636c72;
+    width: 20%;
+}
+.levelbg12{
+    background-color: #636c72;
+    width: 50%;
+}
+.levelbg13{
+    background-color: #8447DC;
+    width: 40%;
+}
+.levelbg14{
+    background-color: #8447DC;
+    width: 20%;
+}
+.levelbg15{
+    background-color: #8447DC;
+    width: 30%;
+}
+/* 技能程度 end */

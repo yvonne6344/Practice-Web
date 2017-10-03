@@ -1,0 +1,100 @@
+.exp-content{
+    width: 100%;
+}
+
+.exp_main{
+    width: 90%;
+    max-width: 600px;
+    top:30px;
+    margin: 0 auto;
+    position: relative;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+}
+
+.exp_pre_1{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: -7.5px;
+    top: 22px;
+    border-radius: 100%;
+}
+.exp_pre_2{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: -7.5px;
+    top: 107px;
+    border-radius: 100%;
+}
+.exp_pre_3{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: -7.5px;
+    top: 192px;
+    border-radius: 100%;
+}
+.exp_pre_4{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: -7.5px;
+    top: 277px;
+    border-radius: 100%;
+}
+.exp_pre_5{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: -7.5px;
+    top: 362px;
+    border-radius: 100%;
+}
+
+.exp_card{
+    margin-bottom: 30px;
+    border: 2px solid #164F80;
+    border-radius: 5px;
+    text-align:center;
+    line-height:50px;
+}
+
+.grad_date{
+    color: #fff;
+    background: #164F80;
+    position: absolute;
+    width: 20%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.grad_date p{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.grad_info_title{
+    display: inline-block;
+    top: 2px;
+    height: 50px;
+    width: 150px;
+    margin-left: 20%;
+}
+
+.grad_info_sub{
+    display: inline-block;
+    margin-left: 15px;
+    height: 50px;
+    width: 250px;
+}

@@ -1,0 +1,12 @@
+.other-list{
+    margin: 30px auto;
+    width: 250px;
+}
+.other-list-item{
+    list-style: none;
+    border-left: 3px solid #D94B4B;
+    margin-top: 15px;
+    width: 150px;
+    padding-left: 10px;
+    text-align: left;
+}
