@@ -60,10 +60,10 @@ gulp.task('browser-sync', () => {
 });
 
 gulp.task('watch', () => {
-gulp.watch('src/views/*.html').on("change", reload);
-gulp.watch('src/css/*.css').on("change", reload);
-gulp.watch('src/js/*.js').on("change", reload);
-gulp.watch("./*.html").on("change", reload);
+    gulp.watch('src/views/*.html', ['view', reload])
+    gulp.watch('src/css/*.css', ['styles', reload])
+    gulp.watch('src/js/*.js', ['js', reload])
+    gulp.watch('./*.html', reolad)
 });
 
 gulp.task('zip', () =>
@@ -71,8 +71,6 @@ gulp.task('zip', () =>
     .pipe(zip('archive.zip'))
     .pipe(gulp.dest('dist'))
 );
-
-
 
 // gulp.task('browser-sync', function () {
 //     browserSync.init({
