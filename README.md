@@ -54,4 +54,4 @@
  - Author：Yvonne Huang
  - E-mail：yvonne791016@gmail.com
  
-<a href="https://imgur.com/DwOVC0X"><img src="https://i.imgur.com/DwOVC0X.png" title="source: imgur.com" width="250" height="400" /></a>
+<a href="https://imgur.com/DwOVC0X"><img src="https://i.imgur.com/DwOVC0X.png" title="source: imgur.com" /></a>
