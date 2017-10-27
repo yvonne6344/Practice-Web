@@ -12,6 +12,7 @@
  - projectPage 特效，引用 A PEN BY RenGM 加以修改（https://codepen.io/Vidy/pen/oCujp?limit=all&page=6&q=list）
 
 ### Frame
+ ```
 ├─build
 │  ├─images
 │  │  └─my_icon.jpg
@@ -48,6 +49,7 @@
 ├─package.json
 ├─README.md
 └─webpack.config.js
+```
 
 ### Copyright
  - Date：2017/10
